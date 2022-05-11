@@ -19,6 +19,17 @@ public class Categorias {
 	private Long id;
 	
 	@Size(max = 255)
+	private String jogos;
+	
+	public String getJogos() {
+		return jogos;
+	}
+
+	public void setJogos(String jogos) {
+		this.jogos = jogos;
+	}
+
+	@Size(max = 255)
 	private String jogoTerror;
 	
 	@Size(max = 255)
